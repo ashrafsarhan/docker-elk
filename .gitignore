@@ -1,0 +1,4 @@
+/elasticsearch/log/*.log*
+/logstash/log/*.log
+/kibana/log/*.log
+/elasticsearch/data
