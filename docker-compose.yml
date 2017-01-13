@@ -30,7 +30,7 @@ services:
     build: kibana/
     volumes:
       - ./kibana/config:/etc/kibana/
-      - ./kibana/log:/var/log/
+ #     - ./kibana/log:/var/log/
     ports:
       - "5601:5601"
     networks:
